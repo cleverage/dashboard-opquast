@@ -1,0 +1,40 @@
+{
+  "name": "dashboard-opquast",
+  "version": "1.0.0",
+  "description": "Dashboard Opquast",
+  "license": "MIT",
+  "repository": "dashboard-opquast",
+  "author": {
+    "name": "Olivier Keul",
+    "email": "okeul@clever-age.com",
+    "url": "github.com/okeul"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "opquast",
+    "unit",
+    "testing",
+    "quality",
+    "certified",
+    "accessibility",
+    "W3C",
+    "seo",
+    "performance"
+  ],
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "colors": "^1.3.3",
+    "express": "^4.16.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-help": "^1.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4"
+  }
+}

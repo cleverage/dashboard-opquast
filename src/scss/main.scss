@@ -1,0 +1,42 @@
+@import 'color';
+@import 'generic';
+@import 'table';
+@import 'form';
+
+body {
+	font-size: 1em;
+	font-family: 'Lato', serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 60vw;
+}
+
+.footer {
+  margin-top: 4em;
+  border-top: 2px solid $c-black;
+}
+
+.logo {
+	display: block;
+	margin: 2em auto;
+}
+
+.intro {
+	max-width: 50em;
+}
+
+.results {
+	margin: 3em 0;
+
+  &.hide {
+    display: none;
+  }
+}
+
+.chart {
+	margin-top: 2em;
+  width: 50em;
+  height: 30em;
+}

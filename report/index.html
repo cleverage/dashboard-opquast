@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Opquast dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+
+  <header role="banner" class="wrapper">
+    <img src="https://website.oqs-cdn.com/wp-content/uploads/2017/06/logoprint.png" width="227" height="50" alt="Opquast" class="logo" />
+  </header>
+
+  <main id="main" role="main" class="wrapper">
+
+    <h1>Opquast dashboard</h1>
+
+    <div class="intro">
+      <p>Ce dashboard permet de lister les agences partenaires Opquast. Mais il permet surtout de générer des jolis tableaux de données ainsi qu'un joli graphique de répartition des certifiés par niveaux.</p>
+    </div>
+
+    <script id="template" type="text-template">
+      <div id="res-{{id}}" class="results hide">
+        <h2 id="{{id}}"><a href="{{url}}">{{partner}} - {{stats.total}} certifiés</a></h2>
+        <div id="chart-{{id}}" class="chart"></div>
+        <button type="button" aria-controls="table-{{id}}" aria-expanded="false" data-label--more="Voir les tableaux de données"
+         data-label--less="Masquer les tableaux de données" aria-describedby="{{id}}" class="btn btn--secondary toggle">Voir les tableaux de données</button>
+        <div id="table-{{id}}" aria-hidden="true" class="table-wrapper">
+          <table class="table">
+            <caption><a href="{{url}}">Liste des certifiés <br />{{partner}}</a></caption>
+            <thead>
+              <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Score</th>
+                <th scope="col">Niveau</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{#certified}}
+              <tr>
+                <th class="th" scope="row">{{name}}</th>
+                <td>{{score}}</td>
+                <td>{{level}}</td>
+              </tr>
+              {{/certified}}
+            </tbody>
+          </table>
+          <table class="table" id="data-{{id}}" aria-hidden="true">
+            <caption><a href="{{url}}">Répartition des certifiés <br /> {{partner}}</a></caption>
+            <thead>
+              <tr>
+                <th scope="col">Niveau</th>
+                <th scope="col">Certifiés</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="th" scope="row">Expert</td>
+                <td>{{stats.level4}}</td>
+              </tr>
+              <tr>
+                <th class="th" scope="row">Avancé</td>
+                <td>{{stats.level3}}</td>
+              </tr>
+              <tr>
+                <th class="th" scope="row">Confirmé</td>
+                <td>{{stats.level2}}</td>
+              </tr>
+              <tr>
+                <th class="th" scope="row">Intermédiaire</td>
+                <td>{{stats.level1}}</td>
+              </tr>
+              <tr>
+                <th class="th" scope="row">Novice</td>
+                <td>{{stats.level0}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </script>
+  </main>
+
+  <footer role="contentinfo" class="wrapper footer">
+    <p>Opquast (Open Quality Standards) a pour objectif d’améliorer la qualité des services en ligne grâce des <a href="http://checklists.opquast.com/fr/">check-lists sous licence ouverte</a> (Creative Commons BY-SA) et des outils validés et utilisés par une large communauté de professionnels du web.</p>
+    <p lang="en">Dashboard made with <span aria-hidden="true">❤</span> <span class="sr-only">love</span> by Clever Age</p>
+  </footer>
+
+  <script src="assets/main.js"></script>
+  
+</body>
+
+</html>
