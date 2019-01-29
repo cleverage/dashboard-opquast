@@ -17,7 +17,7 @@
 
 
 // load data json
-let json = 'data.json';
+let json = 'report/data.json';
 fetch(json)
   .then(res => res.json())
   .then((data) => {
@@ -30,7 +30,7 @@ fetch(json)
 
       // convert data json into a sexy HTML table
       let template = document.getElementById('template').innerHTML,
-        info = Mustache.to_html(template, data[i]);
+          info = Mustache.to_html(template, data[i]);
       document.getElementById('main').insertAdjacentHTML('beforeend', info);
 
       // convert sexy HTML table into a sexy HTML chart
