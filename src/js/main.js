@@ -25,7 +25,7 @@ fetch(json)
     for (let i in data) {
 
       // insert option
-      let option = '<option value="res-' + data[i].id + '">' + data[i].partner + '</option>';
+      let option = '<option value="res-' + data[i].id + '">' + data[i].partner + ' - ' + data[i].stats.total + ' certifiés' + '</option>';
       document.getElementById('foo').insertAdjacentHTML('beforeend', option);
 
       // convert data json into a sexy HTML table
