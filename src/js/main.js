@@ -25,7 +25,7 @@ fetch(json)
     for (let i in data) {
 
       // insert option
-      let option = '<option value="res-' + data[i].id + '">' + data[i].partner + ' - ' + data[i].stats.total + ' certifiés' + '</option>';
+      let option = '<option value="res-' + data[i].id + '">' + data[i].partner + ' - ' + data[i].stats.total + ' certifieds' + '</option>';
       document.getElementById('foo').insertAdjacentHTML('beforeend', option);
 
       // convert data json into a sexy HTML table
@@ -52,7 +52,7 @@ fetch(json)
               enabled: true,
               formatter: function() {
                 if (this.y != 0) {
-                  return (this.percentage.toFixed(1) + ' %' + '<br />Niveau ' + this.key);
+                  return (this.percentage.toFixed(1) + ' %' + '<br />' + this.key);
                 } else {
                   return null;
                 }
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
   /*****************/
 
   // insert form
-  let form = '<form id="form"><div class="field"><label for="foo" class="label">Choix du partenaire :</label><select id="foo" class="select"><option value="">-</option><option value="all">Voir tous les partenaires</option></select></div><button class="btn btn--primary" type="submit">Envoyer</button></form>',
+  let form = '<form id="form"><div class="field"><label for="foo" class="label">Select a partner agency:</label><select id="foo" class="select"><option value="">-</option><option value="all">See all partner agencies</option></select></div><button class="btn btn--primary" type="submit">Submit</button></form>',
     bSubmit = false;
   document.getElementById('main').insertAdjacentHTML('beforeend', form);
 

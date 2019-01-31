@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -20,23 +20,23 @@
     <h1>Opquast dashboard</h1>
 
     <div class="intro">
-      <p>Ce dashboard permet de lister les agences partenaires Opquast. Mais il permet surtout de générer des jolis tableaux de données ainsi qu'un joli graphique de répartition des certifiés par niveaux.</p>
+      <p>This dashboard lists the Opquast partner agencies. But above all, it makes it possible to generate pretty tables of data as well as a nice chart of certifieds by levels.</p>
     </div>
 
     <script id="template" type="text-template">
       <div id="res-{{id}}" class="results hide">
-        <h2 id="{{id}}"><a href="{{url}}">{{partner}} - {{stats.total}} certifiés</a></h2>
+        <h2 id="{{id}}"><a href="{{url}}">{{partner}} - {{stats.total}} certifieds</a></h2>
         <div id="chart-{{id}}" class="chart"></div>
-        <button type="button" aria-controls="table-{{id}}" aria-expanded="false" data-label--more="Voir les tableaux de données"
-         data-label--less="Masquer les tableaux de données" aria-describedby="{{id}}" class="btn btn--secondary toggle">Voir les tableaux de données</button>
+        <button type="button" aria-controls="table-{{id}}" aria-expanded="false" data-label--more="Show data tables"
+         data-label--less="Hide data tables" aria-describedby="{{id}}" class="btn btn--secondary toggle">Show data tables</button>
         <div id="table-{{id}}" aria-hidden="true" class="table-wrapper">
           <table class="table">
-            <caption><a href="{{url}}">Liste des certifiés <br />{{partner}}</a></caption>
+            <caption><a href="{{url}}">List of certifieds <br />{{partner}}</a></caption>
             <thead>
               <tr>
-                <th scope="col">Nom</th>
-                <th scope="col">Score</th>
-                <th scope="col">Niveau</th>
+                <th scope="col">Name</th>
+                <th scope="col">Points</th>
+                <th scope="col">Level</th>
               </tr>
             </thead>
             <tbody>
@@ -50,32 +50,32 @@
             </tbody>
           </table>
           <table class="table" id="data-{{id}}" aria-hidden="true">
-            <caption><a href="{{url}}">Répartition des certifiés <br /> {{partner}}</a></caption>
+            <caption><a href="{{url}}">Statistics of certifieds <br /> {{partner}}</a></caption>
             <thead>
               <tr>
-                <th scope="col">Niveau</th>
-                <th scope="col">Certifiés</th>
+                <th scope="col">Level</th>
+                <th scope="col">Certifieds</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th class="th" scope="row">Expert</td>
+                <th class="th" scope="row">Expert <br />☆☆☆☆☆</td>
                 <td>{{stats.level4}}</td>
               </tr>
               <tr>
-                <th class="th" scope="row">Avancé</td>
+                <th class="th" scope="row">Advanced <br />☆☆☆☆</td>
                 <td>{{stats.level3}}</td>
               </tr>
               <tr>
-                <th class="th" scope="row">Confirmé</td>
+                <th class="th" scope="row">Experienced <br />☆☆☆</td>
                 <td>{{stats.level2}}</td>
               </tr>
               <tr>
-                <th class="th" scope="row">Intermédiaire</td>
+                <th class="th" scope="row">Intermediate <br />☆☆</td>
                 <td>{{stats.level1}}</td>
               </tr>
               <tr>
-                <th class="th" scope="row">Novice</td>
+                <th class="th" scope="row">Beginner <br />☆</td>
                 <td>{{stats.level0}}</td>
               </tr>
             </tbody>
@@ -86,8 +86,8 @@
   </main>
 
   <footer role="contentinfo" class="wrapper footer">
-    <p>Opquast (Open Quality Standards) a pour objectif d’améliorer la qualité des services en ligne grâce des <a href="http://checklists.opquast.com/fr/">check-lists sous licence ouverte</a> (Creative Commons BY-SA) et des outils validés et utilisés par une large communauté de professionnels du web.</p>
-    <p lang="en">Dashboard made with <span aria-hidden="true">❤</span> <span class="sr-only">love</span> by Clever Age</p>
+    <p>Opquast means Open Quality Standards. The project has been launched in 2004. The goal of the projet is to improve the quality of the Web by writing and publishing simple, checkable, realistic, universal and transversal checklists. The main publication is <a href="http://checklists.opquast.com/fr/">the Opquast Web quality checklist</a>.
+    <p>Dashboard made with <span aria-hidden="true">❤</span> <span class="sr-only">love</span> by Clever Age : <a href="https://github.com/cleverage/dashboard-opquast">https://github.com/cleverage/dashboard-opquast.</p>
   </footer>
 
   <script src="report/assets/main.js"></script>

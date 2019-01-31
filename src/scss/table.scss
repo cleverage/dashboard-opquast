@@ -2,6 +2,13 @@
 
 .table-wrapper {
   display: flex;
+
+  .table:first-child {
+  	tbody .th {
+  		font-size: 0.875em;
+  		width: 10em;
+  	}
+  }
 }
 
 .table {

@@ -3,9 +3,9 @@
  * https://github.com/cleverage/dashboard-opquast
  *
  * gulpfile.js
- * - build-css (Compile Sass to CSS and concat + minify CSS)
- * - build-js (Concat + minify JS)
- * - dashboard task
+ * - build-css : compile Sass to CSS, concatenation and minify CSS
+ * - build-js : concatenation and minify JS
+ * - dashboard : running dashboard with sexy data tables and sexy charts
  *
  * Copyright (c) 2019 Olivier Keul
  * Licensed under the MIT license.
@@ -70,7 +70,12 @@ gulp.task('dashboard', 'Running dashboard', function() {
 				level1 = 'intermédiaire',
 				level2 = 'confirmé',
 				level3 = 'avancé',
-				level4 = 'expert';
+				level4 = 'expert',
+				level0EN = 'Beginner',
+				level1EN = 'Intermediate',
+				level2EN = 'Experienced',
+				level3EN = 'Advanced',
+				level4EN = 'Expert';
 
 	// create report folder 
 	if (!fs.existsSync(folder)) {
@@ -197,11 +202,11 @@ gulp.task('dashboard', 'Running dashboard', function() {
 	  				// update data json
   					jsonData[j]['stats'] = { 
 							'total' : countCertified+1, 
-							level0 : countLevel0, 
-							level1 : countLevel1,
-							level2 : countLevel2,
-							level3 : countLevel3,
-							level4 : countLevel4
+							level0EN : countLevel0, 
+							level1EN : countLevel1,
+							level2EN : countLevel2,
+							level3EN : countLevel3,
+							level4EN : countLevel4
 						};
 						let data = JSON.stringify(jsonData, null, 2);
 						fs.writeFileSync(path, data);
