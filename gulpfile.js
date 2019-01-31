@@ -66,16 +66,16 @@ gulp.task('dashboard', 'Running dashboard', function() {
 				item = 'cartouche-large',
 				path = folder + name + '.json',
 				none = '0 certifié',
-				level0 = 'novice',
-				level1 = 'intermédiaire',
-				level2 = 'confirmé',
-				level3 = 'avancé',
-				level4 = 'expert',
-				level0EN = 'Beginner',
-				level1EN = 'Intermediate',
-				level2EN = 'Experienced',
-				level3EN = 'Advanced',
-				level4EN = 'Expert';
+				level0_fr = 'novice',
+				level1_fr = 'intermédiaire',
+				level2_fr = 'confirmé',
+				level3_fr = 'avancé',
+				level4_fr = 'expert',
+				level0_en = 'Beginner',
+				level1_en = 'Intermediate',
+				level2_en = 'Experienced',
+				level3_en = 'Advanced',
+				level4_en = 'Expert';
 
 	// create report folder 
 	if (!fs.existsSync(folder)) {
@@ -154,7 +154,8 @@ gulp.task('dashboard', 'Running dashboard', function() {
 	  						countLevel1 = 0,
 	  						countLevel2 = 0,
 	  						countLevel3 = 0,
-	  						countLevel4 = 0;
+	  						countLevel4 = 0,
+	  						levelCertified_en;
 
 	  				// parse each item to find name, score & level
 	  				$('.' + item).each(function (index, elem) {
@@ -165,12 +166,30 @@ gulp.task('dashboard', 'Running dashboard', function() {
 
 	  					countCertified = index++;
 
-	  					arrLevel.push(levelCertified);
-	  					
+	  					switch (levelCertified) {
+							  case level0_fr:
+							    levelCertified_en =	level0_en;
+							    break;
+							  case level1_fr:
+							    levelCertified_en = level1_en;
+							    break;
+							  case level2_fr:
+							    levelCertified_en = level2_en;
+							    break;
+							  case level3_fr:
+							    levelCertified_en = level3_en;
+							    break;
+							  case level4_fr:
+							    levelCertified_en = level4_en;
+							    break;
+							}
+
+	  					arrLevel.push(levelCertified_en);
+
 							arrCertified.push({ 
 								'name' : nameCertified, 
 								'score' : scoreCertified, 
-								'level': levelCertified
+								'level': levelCertified_en
 							});
 	  					
 	  					// update data json
@@ -181,19 +200,19 @@ gulp.task('dashboard', 'Running dashboard', function() {
 
 						for(var k = 0; k < arrLevel.length; k++){
 						  switch (arrLevel[k]) {
-							  case level0:
+							  case	level0_en:
 							    countLevel0++;
 							    break;
-							  case level1:
+							  case level1_en:
 							    countLevel1++;
 							    break;
-							  case level2:
+							  case level2_en:
 							    countLevel2++;
 							    break;
-							  case level3:
+							  case level3_en:
 							    countLevel3++;
 							    break;
-							  case level4:
+							  case level4_en:
 							    countLevel4++;
 							    break;
 							}
@@ -202,11 +221,11 @@ gulp.task('dashboard', 'Running dashboard', function() {
 	  				// update data json
   					jsonData[j]['stats'] = { 
 							'total' : countCertified+1, 
-							level0EN : countLevel0, 
-							level1EN : countLevel1,
-							level2EN : countLevel2,
-							level3EN : countLevel3,
-							level4EN : countLevel4
+							level0 : countLevel0, 
+							level1 : countLevel1,
+							level2 : countLevel2,
+							level3 : countLevel3,
+							level4 : countLevel4
 						};
 						let data = JSON.stringify(jsonData, null, 2);
 						fs.writeFileSync(path, data);
@@ -226,7 +245,7 @@ gulp.task('dashboard', 'Running dashboard', function() {
 
 	// dashboard
 	const app = express();
-	app.use(express.static(folder));
+	app.use(express.static(__dirname));
 	app.listen(3000);
 	console.log(colors.cyan('Running : ') + 'http://localhost:3000/');
 

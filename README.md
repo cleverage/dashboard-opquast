@@ -16,7 +16,7 @@ List and statistics of certifieds by partners agencies Opquast.
 6. From this JSON file create sexy data tables
 7. From this data tables create sexy charts
 
-## List of task
+## Tasks
 
 * build-css task : compile Sass to CSS, concatenation and minify CSS
 * build-js task : concatenation and minify JS
