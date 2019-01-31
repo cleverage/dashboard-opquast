@@ -16,6 +16,10 @@ body {
 .footer {
   margin-top: 4em;
   border-top: 2px solid $c-black;
+
+  img {
+  	display: block;
+  }
 }
 
 .logo {
