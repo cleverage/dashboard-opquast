@@ -985,11 +985,6 @@
         "level": "Advanced"
       },
       {
-        "name": "Profil anonyme",
-        "score": "615",
-        "level": "Intermediate"
-      },
-      {
         "name": "Simon Escure",
         "score": "930",
         "level": "Expert"
@@ -1056,9 +1051,9 @@
       }
     ],
     "stats": {
-      "total": 77,
+      "total": 76,
       "level0": 0,
-      "level1": 2,
+      "level1": 1,
       "level2": 8,
       "level3": 39,
       "level4": 28
