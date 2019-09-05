@@ -1,137 +1,382 @@
 [
   {
-    "partner": "Empreinte Digitale",
-    "url": "https://directory.opquast.com/fr/v-technologies/certifications/",
-    "id": "empreintedigitale",
+    "partner": "Clever Age",
+    "url": "https://directory.opquast.com/fr/clever-age/certifications/",
+    "id": "cleverage",
     "certified": [
       {
-        "name": "Julien Breton",
-        "score": "940",
-        "level": "Expert"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "705",
-        "level": "Experienced"
-      },
-      {
-        "name": "Nicolas Bourcier",
-        "score": "800",
-        "level": "Advanced"
-      },
-      {
-        "name": "Rodrigue Franco",
-        "score": "910",
-        "level": "Expert"
-      },
-      {
-        "name": "Emmanuel Pelletier",
-        "score": "945",
-        "level": "Expert"
-      },
-      {
-        "name": "Emmanuel Charbonnier",
-        "score": "815",
-        "level": "Advanced"
-      },
-      {
-        "name": "Félix Girault",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Marco Vasquez",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Simon Bonaventure",
-        "score": "885",
-        "level": "Advanced"
-      },
-      {
-        "name": "Yann Olive",
-        "score": "975",
-        "level": "Expert"
-      },
-      {
-        "name": "Clément Cousein",
-        "score": "875",
-        "level": "Advanced"
-      },
-      {
-        "name": "Elise Ruelle",
-        "score": "875",
-        "level": "Advanced"
-      },
-      {
-        "name": "Alexis Perot",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Eulalie Arcens",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Fabien Zepparelli",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Pierre Giraudeau",
-        "score": "765",
-        "level": "Experienced"
-      },
-      {
-        "name": "Thierry Meyer",
-        "score": "890",
-        "level": "Advanced"
-      },
-      {
-        "name": "Pierre Quillet",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Maxence Mille",
+        "name": "Olivier Keul",
         "score": "900",
         "level": "Expert"
       },
       {
-        "name": "Stéphane Jourdain",
+        "name": "Antoine Taris",
+        "score": "890",
+        "level": "Advanced"
+      },
+      {
+        "name": "Hugo André",
+        "score": "835",
+        "level": "Advanced"
+      },
+      {
+        "name": "Julien Nicouleaud",
         "score": "935",
         "level": "Expert"
       },
       {
+        "name": "Jonathan Clancy",
+        "score": "865",
+        "level": "Advanced"
+      },
+      {
         "name": "Profil anonyme",
-        "score": "670",
+        "score": "880",
+        "level": "Advanced"
+      },
+      {
+        "name": "Ibrahim KOUOH-SEIDOU",
+        "score": "845",
+        "level": "Advanced"
+      },
+      {
+        "name": "Alexander Domikov",
+        "score": "925",
+        "level": "Expert"
+      },
+      {
+        "name": "Jacques Leroux",
+        "score": "770",
+        "level": "Experienced"
+      },
+      {
+        "name": "Mohamed-Amine Mih",
+        "score": "895",
+        "level": "Advanced"
+      },
+      {
+        "name": "Florian Lamboley",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Grégoire Paqueron",
+        "score": "970",
+        "level": "Expert"
+      },
+      {
+        "name": "Jean-Marie Tinghir",
+        "score": "895",
+        "level": "Advanced"
+      },
+      {
+        "name": "Vincent Lemaire",
+        "score": "910",
+        "level": "Expert"
+      },
+      {
+        "name": "Damien Venot",
+        "score": "925",
+        "level": "Expert"
+      },
+      {
+        "name": "Eric Giovannetti",
+        "score": "955",
+        "level": "Expert"
+      },
+      {
+        "name": "Fabien Salles",
+        "score": "960",
+        "level": "Expert"
+      },
+      {
+        "name": "Stéphane Marcadet",
+        "score": "895",
+        "level": "Advanced"
+      },
+      {
+        "name": "Anthony Ladeuil",
+        "score": "740",
+        "level": "Experienced"
+      },
+      {
+        "name": "Audrey Villette",
+        "score": "920",
+        "level": "Expert"
+      },
+      {
+        "name": "Emmanuelle Guyot",
+        "score": "790",
+        "level": "Experienced"
+      },
+      {
+        "name": "Emilie Pistorius",
+        "score": "950",
+        "level": "Expert"
+      },
+      {
+        "name": "Laurie-Anne Godard",
+        "score": "800",
+        "level": "Advanced"
+      },
+      {
+        "name": "Cyril Leray",
+        "score": "870",
+        "level": "Advanced"
+      },
+      {
+        "name": "Jonathan Burel",
+        "score": "850",
+        "level": "Advanced"
+      },
+      {
+        "name": "François Charlot",
+        "score": "820",
+        "level": "Advanced"
+      },
+      {
+        "name": "Grégoire Weber",
+        "score": "925",
+        "level": "Expert"
+      },
+      {
+        "name": "Delphine Maurice",
+        "score": "820",
+        "level": "Advanced"
+      },
+      {
+        "name": "Claude Lecomte",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Valentin Derache",
+        "score": "895",
+        "level": "Advanced"
+      },
+      {
+        "name": "Nicolas Boire",
+        "score": "800",
+        "level": "Advanced"
+      },
+      {
+        "name": "Brahim Hedhli",
+        "score": "785",
+        "level": "Experienced"
+      },
+      {
+        "name": "Cyrielle Charrier",
+        "score": "880",
+        "level": "Advanced"
+      },
+      {
+        "name": "Clément Dufour",
+        "score": "865",
+        "level": "Advanced"
+      },
+      {
+        "name": "Marie Delabre",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "630",
         "level": "Intermediate"
       },
       {
-        "name": "Kevin Grand",
+        "name": "Johan Hélias",
+        "score": "810",
+        "level": "Advanced"
+      },
+      {
+        "name": "Aurélie Gardien",
+        "score": "845",
+        "level": "Advanced"
+      },
+      {
+        "name": "Luc Canonge",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Fabien Guerret",
+        "score": "890",
+        "level": "Advanced"
+      },
+      {
+        "name": "Ulrich VISINI",
+        "score": "860",
+        "level": "Advanced"
+      },
+      {
+        "name": "Auriana BASTIAN",
+        "score": "870",
+        "level": "Advanced"
+      },
+      {
+        "name": "Ngoc Thao Tran",
         "score": "710",
         "level": "Experienced"
       },
       {
-        "name": "Profil anonyme",
-        "score": "720",
-        "level": "Experienced"
+        "name": "Victor Meyer",
+        "score": "840",
+        "level": "Advanced"
       },
       {
-        "name": "Aurelien Soulard",
-        "score": "870",
+        "name": "Laurent BOULANGER",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Quentin Morel",
+        "score": "895",
         "level": "Advanced"
+      },
+      {
+        "name": "Simon Toulouze",
+        "score": "850",
+        "level": "Advanced"
+      },
+      {
+        "name": "Jérôme Rakotomanga",
+        "score": "960",
+        "level": "Expert"
+      },
+      {
+        "name": "Patrice Manset",
+        "score": "920",
+        "level": "Expert"
+      },
+      {
+        "name": "Christophe Arnaud",
+        "score": "800",
+        "level": "Advanced"
+      },
+      {
+        "name": "Mehdi Kabab",
+        "score": "965",
+        "level": "Expert"
+      },
+      {
+        "name": "Laurent Sabatier",
+        "score": "910",
+        "level": "Expert"
+      },
+      {
+        "name": "Johan Debat",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Benoît Besnard",
+        "score": "890",
+        "level": "Advanced"
+      },
+      {
+        "name": "Lisiane Lagouarde",
+        "score": "825",
+        "level": "Advanced"
+      },
+      {
+        "name": "Simon Escure",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Guillaume Autret",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Olivier Comastri",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Baptiste Zeller",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "John Guan",
+        "score": "845",
+        "level": "Advanced"
+      },
+      {
+        "name": "Aurélien Roux",
+        "score": "910",
+        "level": "Expert"
+      },
+      {
+        "name": "Axel Lauvergnat",
+        "score": "855",
+        "level": "Advanced"
+      },
+      {
+        "name": "Cédric Marquevielle",
+        "score": "900",
+        "level": "Expert"
+      },
+      {
+        "name": "Alix  Mauro",
+        "score": "950",
+        "level": "Expert"
+      },
+      {
+        "name": "Merryl Cocq",
+        "score": "860",
+        "level": "Advanced"
+      },
+      {
+        "name": "Sofiane Bidelhadjela",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Maxime Ligas",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Cyril Ronseaux",
+        "score": "925",
+        "level": "Expert"
+      },
+      {
+        "name": "Alexandre Gonzalez",
+        "score": "900",
+        "level": "Expert"
+      },
+      {
+        "name": "Nathan Wolf",
+        "score": "810",
+        "level": "Advanced"
+      },
+      {
+        "name": "Christophe LE BOT",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Aurélie Matis",
+        "score": "905",
+        "level": "Expert"
+      },
+      {
+        "name": "Stéphanie  Halin",
+        "score": "925",
+        "level": "Expert"
       }
     ],
     "stats": {
-      "total": 24,
+      "total": 73,
       "level0": 0,
       "level1": 1,
-      "level2": 4,
-      "level3": 11,
-      "level4": 8
+      "level2": 5,
+      "level3": 36,
+      "level4": 31
     }
   },
   {
@@ -710,466 +955,6 @@
     }
   },
   {
-    "partner": "Clever Age",
-    "url": "https://directory.opquast.com/fr/clever-age/certifications/",
-    "id": "cleverage",
-    "certified": [
-      {
-        "name": "Olivier Keul",
-        "score": "900",
-        "level": "Expert"
-      },
-      {
-        "name": "Antoine Taris",
-        "score": "890",
-        "level": "Advanced"
-      },
-      {
-        "name": "Hugo André",
-        "score": "835",
-        "level": "Advanced"
-      },
-      {
-        "name": "Julien Nicouleaud",
-        "score": "935",
-        "level": "Expert"
-      },
-      {
-        "name": "Jonathan Clancy",
-        "score": "865",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "880",
-        "level": "Advanced"
-      },
-      {
-        "name": "Ibrahim KOUOH-SEIDOU",
-        "score": "845",
-        "level": "Advanced"
-      },
-      {
-        "name": "Naïs Alcaraz",
-        "score": "820",
-        "level": "Advanced"
-      },
-      {
-        "name": "Alexander Domikov",
-        "score": "925",
-        "level": "Expert"
-      },
-      {
-        "name": "Jacques Leroux",
-        "score": "770",
-        "level": "Experienced"
-      },
-      {
-        "name": "Mohamed-Amine Mih",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Thomas Vergnaud",
-        "score": "730",
-        "level": "Experienced"
-      },
-      {
-        "name": "Florian Lamboley",
-        "score": "935",
-        "level": "Expert"
-      },
-      {
-        "name": "Grégoire Paqueron",
-        "score": "970",
-        "level": "Expert"
-      },
-      {
-        "name": "Jean-Marie Tinghir",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Vincent Lemaire",
-        "score": "910",
-        "level": "Expert"
-      },
-      {
-        "name": "Damien Venot",
-        "score": "925",
-        "level": "Expert"
-      },
-      {
-        "name": "Baptiste  Longval",
-        "score": "770",
-        "level": "Experienced"
-      },
-      {
-        "name": "Eric Giovannetti",
-        "score": "955",
-        "level": "Expert"
-      },
-      {
-        "name": "Fabien Salles",
-        "score": "960",
-        "level": "Expert"
-      },
-      {
-        "name": "Stéphane Marcadet",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Abel Brien",
-        "score": "845",
-        "level": "Advanced"
-      },
-      {
-        "name": "Anthony Ladeuil",
-        "score": "740",
-        "level": "Experienced"
-      },
-      {
-        "name": "Audrey Villette",
-        "score": "920",
-        "level": "Expert"
-      },
-      {
-        "name": "Emmanuelle Guyot",
-        "score": "790",
-        "level": "Experienced"
-      },
-      {
-        "name": "Emilie Pistorius",
-        "score": "950",
-        "level": "Expert"
-      },
-      {
-        "name": "Laurie-Anne Godard",
-        "score": "800",
-        "level": "Advanced"
-      },
-      {
-        "name": "Vincent Chevalier",
-        "score": "825",
-        "level": "Advanced"
-      },
-      {
-        "name": "Cyril Leray",
-        "score": "870",
-        "level": "Advanced"
-      },
-      {
-        "name": "Jonathan Burel",
-        "score": "850",
-        "level": "Advanced"
-      },
-      {
-        "name": "François Charlot",
-        "score": "820",
-        "level": "Advanced"
-      },
-      {
-        "name": "Grégoire Weber",
-        "score": "925",
-        "level": "Expert"
-      },
-      {
-        "name": "Delphine Maurice",
-        "score": "820",
-        "level": "Advanced"
-      },
-      {
-        "name": "Claude Lecomte",
-        "score": "935",
-        "level": "Expert"
-      },
-      {
-        "name": "Valentin Derache",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Nicolas Boire",
-        "score": "800",
-        "level": "Advanced"
-      },
-      {
-        "name": "Brahim Hedhli",
-        "score": "785",
-        "level": "Experienced"
-      },
-      {
-        "name": "Cyrielle Charrier",
-        "score": "880",
-        "level": "Advanced"
-      },
-      {
-        "name": "Clément Dufour",
-        "score": "865",
-        "level": "Advanced"
-      },
-      {
-        "name": "Marie Delabre",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "630",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Johan Hélias",
-        "score": "810",
-        "level": "Advanced"
-      },
-      {
-        "name": "Aurélie Gardien",
-        "score": "845",
-        "level": "Advanced"
-      },
-      {
-        "name": "Luc Canonge",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Fabien Guerret",
-        "score": "890",
-        "level": "Advanced"
-      },
-      {
-        "name": "Ulrich VISINI",
-        "score": "860",
-        "level": "Advanced"
-      },
-      {
-        "name": "Auriana BASTIAN",
-        "score": "870",
-        "level": "Advanced"
-      },
-      {
-        "name": "Ngoc Thao Tran",
-        "score": "710",
-        "level": "Experienced"
-      },
-      {
-        "name": "Victor Meyer",
-        "score": "840",
-        "level": "Advanced"
-      },
-      {
-        "name": "Laurent BOULANGER",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Quentin Morel",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Simon Toulouze",
-        "score": "850",
-        "level": "Advanced"
-      },
-      {
-        "name": "Jérôme Rakotomanga",
-        "score": "960",
-        "level": "Expert"
-      },
-      {
-        "name": "Patrice Manset",
-        "score": "920",
-        "level": "Expert"
-      },
-      {
-        "name": "Christophe Arnaud",
-        "score": "800",
-        "level": "Advanced"
-      },
-      {
-        "name": "Mehdi Kabab",
-        "score": "965",
-        "level": "Expert"
-      },
-      {
-        "name": "Laurent Sabatier",
-        "score": "910",
-        "level": "Expert"
-      },
-      {
-        "name": "Johan Debat",
-        "score": "935",
-        "level": "Expert"
-      },
-      {
-        "name": "Benoît Besnard",
-        "score": "890",
-        "level": "Advanced"
-      },
-      {
-        "name": "Lisiane Lagouarde",
-        "score": "825",
-        "level": "Advanced"
-      },
-      {
-        "name": "Adil Zarhdad",
-        "score": "820",
-        "level": "Advanced"
-      },
-      {
-        "name": "Simon Escure",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Guillaume Autret",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Alan Mahjoub",
-        "score": "885",
-        "level": "Advanced"
-      },
-      {
-        "name": "Olivier Comastri",
-        "score": "930",
-        "level": "Expert"
-      },
-      {
-        "name": "Baptiste Zeller",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "John Guan",
-        "score": "845",
-        "level": "Advanced"
-      },
-      {
-        "name": "Aurélien Roux",
-        "score": "910",
-        "level": "Expert"
-      },
-      {
-        "name": "Axel Lauvergnat",
-        "score": "855",
-        "level": "Advanced"
-      },
-      {
-        "name": "Cédric Marquevielle",
-        "score": "900",
-        "level": "Expert"
-      },
-      {
-        "name": "Alix  Mauro",
-        "score": "950",
-        "level": "Expert"
-      },
-      {
-        "name": "Merryl Cocq",
-        "score": "860",
-        "level": "Advanced"
-      },
-      {
-        "name": "Emmanuelle Gouleau",
-        "score": "915",
-        "level": "Expert"
-      },
-      {
-        "name": "Sofiane Bidelhadjela",
-        "score": "935",
-        "level": "Expert"
-      },
-      {
-        "name": "Maxime Ligas",
-        "score": "830",
-        "level": "Advanced"
-      },
-      {
-        "name": "Cyril Ronseaux",
-        "score": "925",
-        "level": "Expert"
-      },
-      {
-        "name": "Alexandre Gonzalez",
-        "score": "900",
-        "level": "Expert"
-      },
-      {
-        "name": "Nathan Wolf",
-        "score": "810",
-        "level": "Advanced"
-      },
-      {
-        "name": "Christophe LE BOT",
-        "score": "930",
-        "level": "Expert"
-      }
-    ],
-    "stats": {
-      "total": 79,
-      "level0": 0,
-      "level1": 1,
-      "level2": 7,
-      "level3": 41,
-      "level4": 30
-    }
-  },
-  {
-    "partner": "Eclydre",
-    "url": "https://directory.opquast.com/fr/eclydre/certifications/",
-    "id": "eclydre",
-    "certified": [
-      {
-        "name": "Thierry Cherpitel",
-        "score": "905",
-        "level": "Expert"
-      },
-      {
-        "name": "Yannick Choisy",
-        "score": "845",
-        "level": "Advanced"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "level0": 0,
-      "level1": 0,
-      "level2": 0,
-      "level3": 1,
-      "level4": 1
-    }
-  },
-  {
-    "partner": "Gaya la nouvelle agence",
-    "url": "https://directory.opquast.com/fr/gaya-la-nouvelle-agence/certifications/",
-    "id": "gayalanouvelleagence",
-    "certified": [
-      {
-        "name": "Sébastien Priollet",
-        "score": "800",
-        "level": "Advanced"
-      },
-      {
-        "name": "Matthieu Le Gendre",
-        "score": "785",
-        "level": "Experienced"
-      }
-    ],
-    "stats": {
-      "total": 2,
-      "level0": 0,
-      "level1": 0,
-      "level2": 1,
-      "level3": 1,
-      "level4": 0
-    }
-  },
-  {
     "partner": "Ecedi",
     "url": "https://directory.opquast.com/fr/ecedi/certifications/",
     "id": "ecedi",
@@ -1345,113 +1130,243 @@
     }
   },
   {
-    "partner": "Simplon Prod",
-    "url": "https://directory.opquast.com/fr/simplon-prod/certifications/",
-    "id": "simplonprod",
+    "partner": "Empreinte Digitale",
+    "url": "https://directory.opquast.com/fr/v-technologies/certifications/",
+    "id": "empreintedigitale",
     "certified": [
       {
-        "name": "Audrey Vittecoq-Laporte",
-        "score": "860",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "505",
-        "level": "Beginner"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "595",
-        "level": "Beginner"
-      },
-      {
-        "name": "Shamila Remtoula",
-        "score": "925",
+        "name": "Julien Breton",
+        "score": "940",
         "level": "Expert"
       },
       {
-        "name": "Jérôme Guiraud",
-        "score": "760",
+        "name": "Profil anonyme",
+        "score": "705",
         "level": "Experienced"
       },
       {
-        "name": "Alexandros Nikiforidis",
-        "score": "840",
+        "name": "Nicolas Bourcier",
+        "score": "800",
         "level": "Advanced"
       },
       {
-        "name": "Profil anonyme",
-        "score": "795",
-        "level": "Experienced"
+        "name": "Rodrigue Franco",
+        "score": "910",
+        "level": "Expert"
       },
       {
-        "name": "Anaïs Radelli",
+        "name": "Emmanuel Pelletier",
+        "score": "945",
+        "level": "Expert"
+      },
+      {
+        "name": "Emmanuel Charbonnier",
+        "score": "815",
+        "level": "Advanced"
+      },
+      {
+        "name": "Félix Girault",
+        "score": "895",
+        "level": "Advanced"
+      },
+      {
+        "name": "Marco Vasquez",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Simon Bonaventure",
+        "score": "885",
+        "level": "Advanced"
+      },
+      {
+        "name": "Yann Olive",
+        "score": "975",
+        "level": "Expert"
+      },
+      {
+        "name": "Clément Cousein",
         "score": "875",
         "level": "Advanced"
       },
       {
-        "name": "Alan Hedoux",
-        "score": "835",
+        "name": "Elise Ruelle",
+        "score": "875",
         "level": "Advanced"
       },
       {
-        "name": "Pauline Marcato",
-        "score": "795",
+        "name": "Alexis Perot",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Eulalie Arcens",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Fabien Zepparelli",
+        "score": "830",
+        "level": "Advanced"
+      },
+      {
+        "name": "Pierre Giraudeau",
+        "score": "765",
+        "level": "Experienced"
+      },
+      {
+        "name": "Thierry Meyer",
+        "score": "890",
+        "level": "Advanced"
+      },
+      {
+        "name": "Pierre Quillet",
+        "score": "930",
+        "level": "Expert"
+      },
+      {
+        "name": "Maxence Mille",
+        "score": "900",
+        "level": "Expert"
+      },
+      {
+        "name": "Stéphane Jourdain",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "670",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Kevin Grand",
+        "score": "710",
         "level": "Experienced"
       },
       {
         "name": "Profil anonyme",
-        "score": "645",
-        "level": "Intermediate"
-      },
-      {
-        "name": "Mehdi Al Ouafi",
-        "score": "755",
+        "score": "720",
         "level": "Experienced"
       },
       {
-        "name": "David Auvray",
+        "name": "Aurelien Soulard",
+        "score": "870",
+        "level": "Advanced"
+      }
+    ],
+    "stats": {
+      "total": 24,
+      "level0": 0,
+      "level1": 1,
+      "level2": 4,
+      "level3": 11,
+      "level4": 8
+    }
+  },
+  {
+    "partner": "Gaya la nouvelle agence",
+    "url": "https://directory.opquast.com/fr/gaya-la-nouvelle-agence/certifications/",
+    "id": "gayalanouvelleagence",
+    "certified": [
+      {
+        "name": "Sébastien Priollet",
+        "score": "800",
+        "level": "Advanced"
+      },
+      {
+        "name": "Matthieu Le Gendre",
+        "score": "785",
+        "level": "Experienced"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "level0": 0,
+      "level1": 0,
+      "level2": 1,
+      "level3": 1,
+      "level4": 0
+    }
+  },
+  {
+    "partner": "Inconito",
+    "url": "https://directory.opquast.com/fr/inconito/certifications/",
+    "id": "inconito",
+    "certified": [
+      {
+        "name": "Profil anonyme",
+        "score": "705",
+        "level": "Experienced"
+      },
+      {
+        "name": "mariam saumade",
+        "score": "835",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "890",
+        "level": "Advanced"
+      },
+      {
+        "name": "romain dax",
         "score": "885",
         "level": "Advanced"
       },
       {
         "name": "Profil anonyme",
-        "score": "740",
-        "level": "Experienced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "820",
+        "score": "810",
         "level": "Advanced"
       },
       {
         "name": "Profil anonyme",
-        "score": "725",
-        "level": "Experienced"
+        "score": "860",
+        "level": "Advanced"
+      },
+      {
+        "name": "gilles helleu",
+        "score": "895",
+        "level": "Advanced"
       },
       {
         "name": "Profil anonyme",
-        "score": "805",
+        "score": "870",
         "level": "Advanced"
-      },
-      {
-        "name": "Clément CAUSER",
-        "score": "855",
-        "level": "Advanced"
-      },
-      {
-        "name": "Didier LLOPIS",
-        "score": "920",
-        "level": "Expert"
       }
     ],
     "stats": {
-      "total": 19,
-      "level0": 2,
-      "level1": 1,
-      "level2": 6,
-      "level3": 8,
-      "level4": 2
+      "total": 8,
+      "level0": 0,
+      "level1": 0,
+      "level2": 1,
+      "level3": 7,
+      "level4": 0
+    }
+  },
+  {
+    "partner": "Eclydre",
+    "url": "https://directory.opquast.com/fr/eclydre/certifications/",
+    "id": "eclydre",
+    "certified": [
+      {
+        "name": "Thierry Cherpitel",
+        "score": "905",
+        "level": "Expert"
+      },
+      {
+        "name": "Yannick Choisy",
+        "score": "845",
+        "level": "Advanced"
+      }
+    ],
+    "stats": {
+      "total": 2,
+      "level0": 0,
+      "level1": 0,
+      "level2": 0,
+      "level3": 1,
+      "level4": 1
     }
   },
   {
@@ -1522,61 +1437,6 @@
       "level2": 2,
       "level3": 8,
       "level4": 1
-    }
-  },
-  {
-    "partner": "Inconito",
-    "url": "https://directory.opquast.com/fr/inconito/certifications/",
-    "id": "inconito",
-    "certified": [
-      {
-        "name": "Profil anonyme",
-        "score": "705",
-        "level": "Experienced"
-      },
-      {
-        "name": "mariam saumade",
-        "score": "835",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "890",
-        "level": "Advanced"
-      },
-      {
-        "name": "romain dax",
-        "score": "885",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "810",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "860",
-        "level": "Advanced"
-      },
-      {
-        "name": "gilles helleu",
-        "score": "895",
-        "level": "Advanced"
-      },
-      {
-        "name": "Profil anonyme",
-        "score": "870",
-        "level": "Advanced"
-      }
-    ],
-    "stats": {
-      "total": 8,
-      "level0": 0,
-      "level1": 0,
-      "level2": 1,
-      "level3": 7,
-      "level4": 0
     }
   },
   {
@@ -1807,6 +1667,116 @@
       "level2": 6,
       "level3": 23,
       "level4": 14
+    }
+  },
+  {
+    "partner": "Simplon Prod",
+    "url": "https://directory.opquast.com/fr/simplon-prod/certifications/",
+    "id": "simplonprod",
+    "certified": [
+      {
+        "name": "Audrey Vittecoq-Laporte",
+        "score": "860",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "505",
+        "level": "Beginner"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "595",
+        "level": "Beginner"
+      },
+      {
+        "name": "Shamila Remtoula",
+        "score": "925",
+        "level": "Expert"
+      },
+      {
+        "name": "Jérôme Guiraud",
+        "score": "760",
+        "level": "Experienced"
+      },
+      {
+        "name": "Alexandros Nikiforidis",
+        "score": "840",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "795",
+        "level": "Experienced"
+      },
+      {
+        "name": "Anaïs Radelli",
+        "score": "875",
+        "level": "Advanced"
+      },
+      {
+        "name": "Alan Hedoux",
+        "score": "835",
+        "level": "Advanced"
+      },
+      {
+        "name": "Pauline Marcato",
+        "score": "795",
+        "level": "Experienced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "645",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Mehdi Al Ouafi",
+        "score": "755",
+        "level": "Experienced"
+      },
+      {
+        "name": "David Auvray",
+        "score": "885",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "740",
+        "level": "Experienced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "820",
+        "level": "Advanced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "725",
+        "level": "Experienced"
+      },
+      {
+        "name": "Profil anonyme",
+        "score": "805",
+        "level": "Advanced"
+      },
+      {
+        "name": "Clément CAUSER",
+        "score": "855",
+        "level": "Advanced"
+      },
+      {
+        "name": "Didier LLOPIS",
+        "score": "920",
+        "level": "Expert"
+      }
+    ],
+    "stats": {
+      "total": 19,
+      "level0": 2,
+      "level1": 1,
+      "level2": 6,
+      "level3": 8,
+      "level4": 2
     }
   }
 ]
