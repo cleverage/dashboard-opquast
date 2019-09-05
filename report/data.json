@@ -325,11 +325,6 @@
         "level": "Expert"
       },
       {
-        "name": "Merryl Cocq",
-        "score": "860",
-        "level": "Advanced"
-      },
-      {
         "name": "Sofiane Bidelhadjela",
         "score": "935",
         "level": "Expert"
@@ -371,11 +366,11 @@
       }
     ],
     "stats": {
-      "total": 73,
+      "total": 72,
       "level0": 0,
       "level1": 1,
       "level2": 5,
-      "level3": 36,
+      "level3": 35,
       "level4": 31
     }
   },
