@@ -37,6 +37,7 @@
     "gulp-eslint": "^6.0.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify-es": "^2.0.0",
+    "moment": "^2.26.0",
     "mustache": "^4.0.1"
   }
 }

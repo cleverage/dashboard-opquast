@@ -26,6 +26,7 @@ const express = require('express');
 const fs = require('fs');
 const gulp = require('gulp');
 const https = require('https');
+const moment = require('moment');
 const sass = require('gulp-sass');
 const uglify = require('gulp-uglify-es').default;
 
@@ -46,7 +47,7 @@ function jsLint() {
   return gulp.src(['src/js/main.js', 'gulpfile.js',])
     .pipe(eslint())
     .pipe(eslint.format())
-    //.pipe(eslint.failAfterError())
+    .pipe(eslint.failAfterError())
 }
 
 // Concat + minify JS
@@ -254,10 +255,12 @@ function dashboard() {
           console.log(colors.cyan('Request : ') + host);
 
           const $ = cheerio.load(dataHost),
-            count = $(number).text().replace(/\s/g, '');
+            count = $(number).text().replace(/\s/g, ''),
+            timestamp = moment().format('MMMM Do, YYYY');
 
           jsonData.push({
             'count': count,
+            'timestamp': timestamp,
           });
           let data = JSON.stringify(jsonData, null, 2);
           fs.writeFileSync(path, data);
