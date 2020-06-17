@@ -15,12 +15,29 @@
 
 'use strict';
 
+import Mustache from 'mustache';
+import Highcharts from 'highcharts';
+ 
+// Load modules
+import Data from 'highcharts/modules/data';
+import Exporting from 'highcharts/modules/exporting';
+// Initialize modules
+Data(Highcharts);
+Exporting(Highcharts);
+
 
 // load data json
 let json = 'report/data.json';
 fetch(json)
   .then(res => res.json())
   .then((data) => {
+
+    // display number of certifieds
+    let tplCount = document.getElementById('tpl-count').innerHTML ;
+    let dataCount = Mustache.to_html(tplCount, data.slice(-1)[0]);
+    document.getElementById('desc').insertAdjacentHTML('beforeend', dataCount);
+
+    data.pop();
 
     for (let i in data) {
 
@@ -29,14 +46,14 @@ fetch(json)
       document.getElementById('foo').insertAdjacentHTML('beforeend', option);
 
       // convert data json into a sexy HTML table
-      let template = document.getElementById('template').innerHTML,
-          info = Mustache.to_html(template, data[i]);
-      document.getElementById('main').insertAdjacentHTML('beforeend', info);
+      let tplRes = document.getElementById('tpl-res').innerHTML ;
+      let dataRes = Mustache.to_html(tplRes, data[i]);
+      document.getElementById('main').insertAdjacentHTML('beforeend', dataRes);
 
       // convert sexy HTML table into a sexy HTML chart
       Highcharts.chart('chart-' + data[i].id, {
         data: {
-          table: 'data-' + data[i].id
+          table: 'data-' + data[i].id,
         },
         plotOptions: {
           pie: {
@@ -46,7 +63,7 @@ fetch(json)
               '#127eb1',
               '#666666',
               '#313036',
-              '#c74817'
+              '#c74817',
             ],
             dataLabels: {
               enabled: true,
@@ -56,16 +73,16 @@ fetch(json)
                 } else {
                   return null;
                 }
-              }
-            }
-          }
+              },
+            },
+          },
         },
         chart: {
-          type: 'pie'
+          type: 'pie',
         },
         title: {
-          text: ''
-        }
+          text: '',
+        },
       });
     }
   })
@@ -80,8 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
   /*****************/
 
   // insert form
-  let form = '<form id="form"><div class="field"><label for="foo" class="label">Select a partner agency:</label><select id="foo" class="select"><option value="">-</option><option value="all">See all partner agencies</option></select></div><button class="btn btn--primary" type="submit">Submit</button></form>',
-    bSubmit = false;
+  let form = '<form id="form"><div class="field"><label for="foo" class="label">Select a partner agency:</label><select id="foo" class="select"><option value="">-</option></select></div><button class="btn btn--primary" type="submit">Submit</button></form>';
   document.getElementById('main').insertAdjacentHTML('beforeend', form);
 
   // submit handler
@@ -99,48 +115,32 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    if (option === 'all') {
-      Array.prototype.forEach.call(results, function(e) {
-        e.classList.remove('hide');
-      });
-    } else if (option) {
+    if (option !== null && option !== '') {
       document.getElementById(option).classList.remove('hide');
-    }
 
-    /****************/
-    /* toggle table */
-    /****************/
-
-    if (bSubmit == false) {
-      var btn = document.querySelectorAll('.toggle');
-
-      function onClick() {
-        'use strict';
-
-        let btn = this,
-          content = document.getElementById(btn.getAttribute('aria-controls')),
+      /****************/
+      /* toggle table */
+      /****************/
+      var btnToggle = document.getElementById(option).querySelector('.toggle');
+      btnToggle.onclick = function () {
+        let content = document.getElementById(this.getAttribute('aria-controls')),
           attrExpanded = 'aria-expanded',
           attrHidden = 'aria-hidden',
-          labelMore = btn.getAttribute('data-label--more'),
-          labelLess = btn.getAttribute('data-label--less'),
-          bExpand = btn.getAttribute(attrExpanded);
+          labelMore = this.getAttribute('data-label--more'),
+          labelLess = this.getAttribute('data-label--less'),
+          bExpand = this.getAttribute(attrExpanded);
 
         if (bExpand == 'false') {
           content.setAttribute(attrHidden, 'false');
-          btn.innerHTML = labelLess;
-          btn.setAttribute(attrExpanded, 'true');
+          this.innerHTML = labelLess;
+          this.setAttribute(attrExpanded, 'true');
         } else if (bExpand == 'true') {
           content.setAttribute(attrHidden, 'true');
-          btn.innerHTML = labelMore;
-          btn.setAttribute(attrExpanded, 'false');
+          this.innerHTML = labelMore;
+          this.setAttribute(attrExpanded, 'false');
         }
-      }
+      };
 
-      Array.from(btn).forEach(e => {
-        e.addEventListener('click', onClick);
-      });
-
-      bSubmit = true;
     }
 
   });
