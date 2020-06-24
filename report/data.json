@@ -818,15 +818,30 @@
         "name": "Yannick Risch",
         "score": "850",
         "level": "Advanced"
+      },
+      {
+        "name": "Olivier Martinerie",
+        "score": "905",
+        "level": "Expert"
+      },
+      {
+        "name": "Eric Georges",
+        "score": "935",
+        "level": "Expert"
+      },
+      {
+        "name": "Mohamed Ait Mansour",
+        "score": "770",
+        "level": "Experienced"
       }
     ],
     "stats": {
-      "total": 82,
+      "total": 85,
       "level0": 0,
       "level1": 5,
-      "level2": 6,
+      "level2": 7,
       "level3": 42,
-      "level4": 29
+      "level4": 31
     }
   },
   {
